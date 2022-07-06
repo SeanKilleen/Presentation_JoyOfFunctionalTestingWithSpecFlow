@@ -7,31 +7,38 @@ namespace OtherDemos
     [Binding]
     public class VendingMachineProductSteps
     {
-        private VendingMachine vm;
-        private Product product;
+        private VendingMachine _vendingMachine;
+        private Product _product;
 
         [Given(@"I am at the vending machine")]
         public void GivenIAmAtTheVendingMachine()
         {
-            vm = new VendingMachine();
+            _vendingMachine = new VendingMachine();
         }
 
         [When(@"I insert a quarter")]
         public void WhenIInsertAQuarter()
         {
-            vm.Add(25);
+            _vendingMachine.Add(25);
         }
 
         [When(@"I purchase a product")]
         public void WhenIPurchaseAProduct()
         {
-            product = vm.PurchaseProduct();
+            _product = _vendingMachine.PurchaseProduct();
         }
 
         [Then(@"I should receive the product")]
         public void ThenIShouldReceiveTheProduct()
         {
-            Assert.That(product, Is.Not.Null);
+            Assert.That(_product, Is.Not.Null);
         }
+
+        [Then(@"I should not receive the product")]
+        public void ThenIShouldNotReceiveTheProduct()
+        {
+            Assert.That(_product, Is.Null);
+        }
+
     }
 }

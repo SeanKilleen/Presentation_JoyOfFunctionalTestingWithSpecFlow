@@ -10,6 +10,7 @@ namespace FromScratch
             // SpecFlow.NUnit
             // SpecFlow.Tools.MsBuild.Generation
             // NUnit3TestAdapter
-        // TODO: Add an example specflow project
+            // Microsoft.NET.Test.Sdk
+            // TODO: Add an example specflow project
     }
 }
