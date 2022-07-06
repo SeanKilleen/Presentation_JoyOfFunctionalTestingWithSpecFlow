@@ -23,8 +23,16 @@
 * Refactor to use a Scenariocontext
 * Refactor to use our own context
 
-## SpecFlow + LivingDoc generation
+## Conceptual 4th Example: What about a WebDriver?
+
+* Can use Selenium or Playwright
+* Use browser automation but keep the clean Gherkin syntax
+* Ensure browser tests actually map to features
+
+## 5th Example: SpecFlow + LivingDoc generation
 
 * `dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI`
 * CD to specs folder
 * `livingdoc feature-folder .`
+
+Alternative tool: "Pickles"
