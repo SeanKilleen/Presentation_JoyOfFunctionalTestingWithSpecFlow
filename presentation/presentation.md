@@ -138,6 +138,8 @@ An Introduction with SpecFlow
 
 ![bg contain](./assets/images/quadrants-before.png)
 
+<!-- Ever want to be famous? Invent a box with 4 quadrants. -->
+
 ---
 <!-- _footer: "" -->
 
@@ -166,6 +168,8 @@ An Introduction with SpecFlow
 ---
 
 # Gherkin Syntax
+
+<!-- A standard of the language of examples -->
 
 ---
 
@@ -200,6 +204,16 @@ When I enter a valid username
 Then I should be redirected to my profile page
 ```
 
+<!-- This is actually telling us:
+
+* Starting State -- clear what the context is
+* Written in the first person because there is an actor
+* Setting up the universe of the test
+
+Given statement is important for data setup, too
+
+Different opinions -- 1 action? 1 logical action? Many approaches.
+ -->
 ---
 <!-- _footer: "" -->
 
