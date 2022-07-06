@@ -57,7 +57,7 @@ An Introduction with SpecFlow
 
 ---
 
-# Why this matters
+# Why This Matters
 
 ---
 
@@ -68,7 +68,7 @@ An Introduction with SpecFlow
 
 ---
 
-#### Why this matters
+#### WHY THIS MATTERS
 
 # Confusion
 
@@ -80,7 +80,7 @@ An Introduction with SpecFlow
 
 ---
 
-#### Why this matters
+#### WHY THIS MATTERS
 
 # Trust
 
@@ -91,7 +91,7 @@ An Introduction with SpecFlow
 <!-- Trust allows us to build meaningful trust for the business -->
 ---
 
-#### Why this matters
+#### WHY THIS MATTERS
 
 # Feature Fighting
 
@@ -173,7 +173,7 @@ An Introduction with SpecFlow
 
 ---
 
-#### Gherkin Syntax
+#### GHERKIN SYNTAX
 
 - Given
 - When
@@ -181,7 +181,7 @@ An Introduction with SpecFlow
 
 ---
 
-#### Gherkin Syntax
+#### GHERKIN SYNTAX
 
 Old and busted:
 
@@ -191,7 +191,7 @@ A system shall allow login access
 
 ---
 
-#### Gherkin Syntax
+#### GHERKIN SYNTAX
 
 New hotness:
 
@@ -237,13 +237,13 @@ Example: Discovering stakeholders want google login.
 
 ---
 
-#### Benefits
+#### BENEFITS
 
 # Consensus
 
 ---
 
-#### Benefits
+#### BENEFITS
 
 # Shift to the Left
 
@@ -257,7 +257,7 @@ Example: Discovering stakeholders want google login.
 
 ---
 
-#### Benefits
+#### BENEFITS
 
 # Sign-Off
 
@@ -268,7 +268,7 @@ Example: Discovering stakeholders want google login.
 <!-- Trust + Confidence -->
 ---
 
-#### Benefits
+#### BENEFITS
 
 # Missed Requirements
 
