@@ -36,7 +36,7 @@ An Introduction with SpecFlow
 <!-- _footer: "" -->
 ![bg left 60%](./assets/images/me.png)
 
-# <!--fit--> Hi! :wave: I'm Sean
+# <!--fit--> Hi! :wave: I'm Sean.
 
 - :bird: [sjkilleen](https://twitter.com/sjkilleen)
 - :earth_americas: [SeanKilleen.com](https://seankilleen.com)
@@ -44,7 +44,7 @@ An Introduction with SpecFlow
 
 ---
 
-## Let's Do this
+## Let's Do This.
 
 - Why this matters
 - Specification by example
@@ -213,12 +213,15 @@ Then I should be redirected to my profile page
 Given statement is important for data setup, too
 
 Different opinions -- 1 action? 1 logical action? Many approaches.
+
+Example: Discovering stakeholders want google login.
  -->
 ---
 <!-- _footer: "" -->
 
 ![bg contain](./assets/images/gherkin-shoppingcart.png)
 
+<!-- Very specific language here. "Harry Potter" -->
 ---
 
 # Benefits
@@ -229,6 +232,7 @@ Different opinions -- 1 action? 1 logical action? Many approaches.
 
 ---
 
+<!-- _footer: "" -->
 ![bg contain](./assets/images/atdd.png)
 
 ---
@@ -279,7 +283,7 @@ Different opinions -- 1 action? 1 logical action? Many approaches.
 
 ![bg left 60%](./assets/images/me.png)
 
-# Thanks
+# Thanks!
 
 - :bird: [sjkilleen](https://twitter.com/sjkilleen)
 - :earth_americas: [SeanKilleen.com](https://seankilleen.com)
