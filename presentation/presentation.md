@@ -35,7 +35,7 @@ An Introduction with SpecFlow
 <!-- _footer: "" -->
 ![bg left 60%](./assets/images/me.png)
 
-# <!--fit--> Hi! :wave: I'm Sean.
+# <!--fit--> Hi! :wave: I'm Sean
 
 - :bird: [sjkilleen](https://twitter.com/sjkilleen)
 - :earth_americas: [SeanKilleen.com](https://seankilleen.com)
@@ -45,12 +45,12 @@ An Introduction with SpecFlow
 
 ## Let's Do this
 
-* Why this matters
-* Specification by example
-* Functional / Acceptance Testing
-* Gherkin syntax
-* Benefits
-* SpecFlow demos
+- Why this matters
+- Specification by example
+- Functional / Acceptance Testing
+- Gherkin syntax
+- Benefits
+- SpecFlow demos
 
 ---
 
@@ -138,9 +138,9 @@ An Introduction with SpecFlow
 
 #### Gherkin Syntax
 
-* Given
-* When
-* Then
+- Given
+- When
+- Then
 
 ---
 
@@ -232,7 +232,7 @@ Then I should be redirected to my profile page
 
 ![bg left 60%](./assets/images/me.png)
 
-# Thanks!
+# Thanks
 
 - :bird: [sjkilleen](https://twitter.com/sjkilleen)
 - :earth_americas: [SeanKilleen.com](https://seankilleen.com)
