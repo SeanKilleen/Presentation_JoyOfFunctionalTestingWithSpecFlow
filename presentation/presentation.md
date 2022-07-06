@@ -301,6 +301,8 @@ Differences in what stakeholders thought something should do. We could verify wh
 "What about this?" -- and we could build on initial automation. Adding more examples was trivial. Could process them faster.
 
 Built up to 3500 functional tests & examples. Could implement more complex engine in half the time because we had the confidence of coverage. Plus, we were able to bring everyone along.
+
+Used to be 6 months. Now hours.
  -->
 
 ---
