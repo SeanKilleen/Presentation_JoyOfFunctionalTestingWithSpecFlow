@@ -4,6 +4,7 @@ title: The Joy of Functional Testing with SpecFlow
 theme: uncover
 paginate: false
 footer: "Joy of Functional Testing w/SpecFlow | :earth_americas: [SeanKilleen.com](https://SeanKilleen.com) | :bird: [@sjkilleen](https://twitter.com/sjkilleen)"
+class: invert
 ---
 
 # The Joy
@@ -52,6 +53,8 @@ An Introduction with SpecFlow
 - Benefits
 - SpecFlow demos
 
+<!-- A note: We're not doing browser-based testing in this talk. -->
+
 ---
 
 # Why this matters
@@ -61,11 +64,19 @@ An Introduction with SpecFlow
 <!-- _footer: "" -->
 ![bg contain](./assets/images/move-fast-break.png)
 
+<!-- Breaking things is a luxury we don't have -->
+
 ---
 
 #### Why this matters
 
 # Confusion
+
+<!-- What does a requirement mean? -->
+
+<!-- Implicit definitions -->
+
+<!-- Work coming back or causing churn -->
 
 ---
 
@@ -73,16 +84,33 @@ An Introduction with SpecFlow
 
 # Trust
 
+<!-- Regressions erode trust -->
+<!-- "Everyone's nervous to touch that" -->
+<!-- Stakeholders can't necessarily make sense of automation -->
+<!-- Erodes confidence, can destroy pace & feedback loops (waste) -->
+<!-- Trust allows us to build meaningful trust for the business -->
 ---
 
 #### Why this matters
 
 # Feature Fighting
 
+<!-- My term; probably a better term for it. -->
+
+<!-- Building something as a team, breaks because of someone else's requirement -->
+
+<!-- Can be difficult to find; unit testing doesn't catch them. -->
+
 ---
 
 <!-- _footer: "" -->
 ![bg contain](./assets/images/roxbury.jpg)
+
+<!-- When lacking collaboration, can be hard to be done -->
+
+<!-- "What about this scenario? My house isn't done because I don't have a pool." -->
+
+<!-- We want to be more explicit to enable collaboration & quick feedback loops -->
 
 ---
 
@@ -93,6 +121,11 @@ An Introduction with SpecFlow
 
 <!-- _footer: "" -->
 ![bg contain](./assets/images/specbyexample-cover.jpg)
+
+<!-- BDD vs Spec by Example -->
+<!-- Express intent of system in human understandable terms -->
+<!-- One or more real detailed examples to explain functionality -->
+<!-- When confused talking to someone, we often say "give me an example" -->
 
 ---
 
