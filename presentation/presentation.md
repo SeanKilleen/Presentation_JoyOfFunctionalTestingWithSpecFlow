@@ -309,9 +309,16 @@ Used to be 6 months. Now hours.
 
 # SpecFlow
 
+<!-- Tool in .NET; Cucumber exists elsewhere. -->
+
+<!-- Serve as a glue between human sentences and automated test steps that run -->
+
+<!-- Generates tests in existing test frameworks behind the scenes, e.g. xUnit or NUnit -->
 ---
 
 ![bg contain](./assets/images/glue-diagram.png)
+
+<!-- AAT sometimes called AATs. Automated Acceptance Tests -->
 
 ---
 <!-- _footer: "" -->
