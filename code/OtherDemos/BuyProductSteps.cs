@@ -33,5 +33,12 @@ namespace OtherDemos
         {
             Assert.That(product, Is.Not.Null);
         }
+
+        [Then(@"I should not receive the product")]
+        public void ThenIShouldNotReceiveTheProduct()
+        {
+            Assert.That(product, Is.Null);
+        }
+
     }
 }
