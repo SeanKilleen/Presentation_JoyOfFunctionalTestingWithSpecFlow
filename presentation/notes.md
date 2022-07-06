@@ -7,10 +7,12 @@
 * Show Steps
 * Parameterizing the step for first number
 * Local class variable
+* Show output of test steps results
+* Show next scenario with auto-complete / syntax highlighting
 
-# Second Example
+## Second Example
 
-# SpecFlow + LivingDoc generation
+## SpecFlow + LivingDoc generation
 
 * `dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI`
 * CD to specs folder
