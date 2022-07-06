@@ -247,17 +247,61 @@ Example: Discovering stakeholders want google login.
 
 # Shift to the Left
 
+<!-- Breaking the cycle of mini-waterfall steps -->
+
+<!-- Breaks the cycle of churn due to late conversation -->
+
+<!-- On the same page early on -->
+
+<!-- Shouldn't be a surprise to anybody -->
+
 ---
 
 #### Benefits
 
 # Sign-Off
 
+<!-- Smoother sign-off; clear up front -->
+
+<!-- Agreement + Automation == easier to achieve -->
+
+<!-- Trust + Confidence -->
 ---
 
 #### Benefits
 
 # Missed Requirements
+
+<!-- "It's not working because it doesn't also do this other thing we didn't discuss." -->
+
+<!-- Requirements being submitted as bugs -->
+
+<!-- Missed requirements are OK! We can adapt. -->
+
+<!-- If it's missed, we all missed it. -->
+
+<!-- Can do it quickly if possible, or document for later. -->
+
+---
+<!-- _footer: "" -->
+![bg](./assets/images/story-time-elmo.gif)
+
+<!-- 
+Benefits system. Handled $7+ billion in assets.
+Eligibility/participation engine. A mess. Many different requirements.
+Stakeholders not on the same page.
+Became a piece of code nobody wanted to touch.
+We were forced into a scenario where we had to re-write a lot of the code.
+
+We started asking stakeholders for what things would do.
+We listened, and read it back in Gherkin format.
+Started with one example, built them up. 
+Automated and found a regression right away. Built enthusiasm for participating in the Gherkin generation meetings.
+Differences in what stakeholders thought something should do. We could verify what system did.
+"What about this?" -- and we could build on initial automation. Adding more examples was trivial. Could process them faster.
+
+Built up to 3500 functional tests & examples. Could implement more complex engine in half the time because we had the confidence of coverage. Plus, we were able to bring everyone along.
+ -->
 
 ---
 
