@@ -13,9 +13,9 @@ namespace OtherDemos
     public class ListProductSteps
     {
         private List<Product> _products;
-        private VendingMachine vm;
-        private int productCount;
-        private List<Product> currentProducts;
+        private VendingMachine _vendingMachine;
+        private int _productCount;
+        private List<Product> _currentProducts;
 
 
         [Given(@"I have the following products:")]
@@ -27,25 +27,25 @@ namespace OtherDemos
         [Given(@"I am at the vending machine with the products")]
         public void GivenIAmAtTheVendingMachineWithTheProducts()
         {
-            vm = new VendingMachine(_products);
+            _vendingMachine = new VendingMachine(_products);
         }
 
         [When(@"I get the product count")]
         public void WhenIGetTheProductCount()
         {
-            productCount = vm.GetProductCount();
+            _productCount = _vendingMachine.GetProductCount();
         }
 
         [Then(@"the product count should be (.*)")]
         public void ThenTheProductCountShouldBe(int amount)
         {
-            Assert.That(productCount, Is.EqualTo(amount));
+            Assert.That(_productCount, Is.EqualTo(amount));
         }
 
         [When(@"I get the current products")]
         public void WhenIGetTheCurrentProducts()
         {
-            currentProducts = vm.GetCurrentProducts();
+            _currentProducts = _vendingMachine.GetCurrentProducts();
         }
 
         [Then(@"the products should include (.*)")]
@@ -61,8 +61,5 @@ namespace OtherDemos
             var containsName = _products.Any(x => x.Name == productName);
             Assert.That(containsName, Is.False);
         }
-
-
-
     }
 }
