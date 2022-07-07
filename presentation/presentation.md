@@ -7,9 +7,9 @@ footer: "Joy of Functional Testing w/SpecFlow | :earth_americas: [SeanKilleen.co
 class: invert
 ---
 
-# The Joy
+# THE JOY
 
-# of Functional Testing
+# OF FUNCTIONAL TESTING
 
 An Introduction with SpecFlow
 
